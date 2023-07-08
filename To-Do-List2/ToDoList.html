@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList-TimeTracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="content" id="title">
+          <img src="arrow-left.png" alt="icon left" class="icon-left" />
+          <h2 class="title">To Do List</h2>
+          <h4 id="count-title"></h4>
+        </div>
+        <div class="list" id="list"></div>
+      </div>
+      <form class="form" id="todoform">
+        <input
+          type="text"
+          id="newtodo"
+          name="newtodo"
+          class="input form__field"
+          placeholder="Inter Your Task ..."
+        />
+        <button type="submit">
+          <img src="icons8-plus-64.png" alt="icon plus" class="icon-plus" />
+        </button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

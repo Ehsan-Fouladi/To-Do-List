@@ -1,0 +1,19 @@
+*{
+  font-family: cursive;
+  color: black;
+}
+.list-group-item span{
+  cursor: pointer;
+}
+body{
+  margin-top: 125px;
+}
+#header{
+  background-color: azure;
+  opacity: 0.7;
+}
+.content{
+  width: 655px !important;
+  background-color: azure;
+  opacity: 0.7;
+}
